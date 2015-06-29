@@ -1,0 +1,35 @@
+{
+  "name": "GAZA",
+  "description": "A HOT PLACE PICKUP WEB APPLICATION",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "^4.13.0",
+    "jade": "^1.11.0",
+    "body-parser": "^1.13.1",
+    "morgan": "^1.6.0",
+    "mongoose": "^4.0.6",
+    "app-module-path": "^1.0.2"
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luckychips/node.js-webserver.git"
+  },
+  "author": "sungjin.kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luckychips/node.js-webserver/issues"
+  },
+  "homepage": "https://github.com/Luckychips/node.js-webserver"
+}

@@ -1,0 +1,8 @@
+figure(class='place_item')
+    - var isUrl = place.name.substring(0,4) == 'http'
+    if (isUrl)
+        img(class='item_image' src='data:image/png;base64,#{place.image}')
+    else
+        img(class='item_image' src='/image/no_image.jpg')
+    div(class='item_content')
+        span(class='item_title') #{place.name}

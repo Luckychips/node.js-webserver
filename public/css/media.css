@@ -1,0 +1,66 @@
+@media screen and (min-width:850px) {
+    .resizable {
+        height : 600px;
+    }
+
+    .main_title {
+        font-size : 60px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .resizable {
+        height : 800px;
+    }
+
+    .main_title {
+        font-size : 65px;
+    }
+}
+
+
+/* only list item setting */
+@media screen and (min-width:1129px) {
+    .place_list {
+        width : 1130px;
+        -moz-column-count : 5;
+        -webkit-column-count : 5;
+        column-count : 5;
+    }
+}
+
+@media screen and (min-width:899px) and (max-width:1128px) {
+    .place_list {
+        width : 900px;
+        -moz-column-count : 4;
+        -webkit-column-count : 4;
+        column-count : 4;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:898px) {
+    .place_list {
+        width : 675px;
+        -moz-column-count : 3;
+        -webkit-column-count : 3;
+        column-count : 3;
+    }
+}
+
+@media screen and (min-width:452px) and (max-width:679px) {
+    .place_list {
+        width : 451px;
+        -moz-column-count : 2;
+        -webkit-column-count : 2;
+        column-count : 2;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .place_list {
+        width : 226px;
+        -moz-column-count : 1;
+        -webkit-column-count : 1;
+        column-count : 1;
+    }
+}

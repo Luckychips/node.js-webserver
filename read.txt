@@ -1,0 +1,30 @@
+installation
+
+1. npm 설치
+2. node.js 설치
+3. express.js 설치
+4. bower 설치(프론트엔드 라이브러리 설치를 위한 툴)
+
+
+
+
+
+place type(number)
+
+1 - Cafe
+2 - Restaurant
+3 - Dessert
+4 - Playground
+5 - Beauty
+6 - Rest
+7 - Hot.Place(Place or Area)
+
+
+
+todo
+1. 서버에 이미지 저장하는 방법 체크(CDN 서버 이용)
+2. 상세화면 템플릿
+
+
+* 단말기에서 이미지 업로드 시 이미지 포맷을 지정해준 후 서버와 통신
+* 업로드하려는 이미지가 여러장일 경우...처리(장소 등록 시 여러장을 업로드할 수 있게 처리할 것인가?)

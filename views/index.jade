@@ -1,0 +1,118 @@
+doctype html
+html
+include head
+body
+
+script(type='text/javascript' value='jquery'): include ../public/bower_components/jquery/dist/jquery.min.js
+script(type='text/javascript' value='bootstrap'): include ../public/bower_components/bootstrap/dist/js/bootstrap.min.js
+script(type='text/javascript' value='bootflat'): include ../public/bower_components/bootflat/js/jquery.icheck.js
+script(type='text/javascript' value='bootflat'): include ../public/bower_components/bootflat/js/html5shiv.js
+script(type='text/javascript' value='bootflat'): include ../public/bower_components/bootflat/js/respond.min.js
+script(type='text/javascript' value='remodal'): include ../public/bower_components/remodal/dist/remodal.min.js
+script(type='text/javascript'): include ../public/js/event.js
+
+div(class="remodal" data-remodal-id="modal")
+    h1 Remodal
+    img(src='http://www.changupgiljabi.com/data/file/land/thumb/28370')
+    p Flat, responsive, lightweight, fast, easy customizable modal window plugin
+    p with declarative state notation and hash tracking.
+    a(class="remodal-cancel" href="#") Cancel
+    a(class="remodal-confirm" href="#") OK
+
+
+header(id='header' class='resizable')
+    div(id='main_view')
+        h1(class='main_title')
+            b gaza
+            span &nbsp;for web
+        h2(class='sub_title') Come With Us.
+        i(class='scroll fa fa-chevron-down')
+
+div(id='content' class='resizable')
+    - var isEmpty = places.length <= 0
+    if isEmpty
+        div is empty!!!
+    else
+        div(class='place_list')
+            //each place in places
+            //    include item
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://www.changupgiljabi.com/data/file/land/thumb/28370')
+                div(class='item_content')
+                    span(class='item_title') 오븐에 빠진 닭
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://chemitable.com/wp-content/uploads/2014/03/home_m1.jpg')
+                div(class='item_content')
+                    span(class='item_title') 케미테이블
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile27.uf.tistory.com/image/271AD046535C7B6011E1FE')
+                div(class='item_content')
+                    span(class='item_title') LES PREMICES
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://pds26.egloos.com/pds/201212/19/96/e0063996_50d1cfcce4064.jpg')
+                div(class='item_content')
+                    span(class='item_title') LA DUREE
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile1.uf.tistory.com/image/1273763850989DB00AFF63')
+                div(class='item_content')
+                    span(class='item_title') GODIVA
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile23.uf.tistory.com/image/2774594C527061212BA21B')
+                div(class='item_content')
+                    span(class='item_title') 아그레아블
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://image.wemakeprice.com/dealimg/201407/293019/8a9ab9f183d7f48a9403f1c815e3cbb15f0476b4.jpg')
+                div(class='item_content')
+                    span(class='item_title') 레몬 테이블
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile8.uf.tistory.com/image/2616CB3854030122051FAF')
+                div(class='item_content')
+                    span(class='item_title') 홍벽돌
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://img.ezmember.co.kr/cache/board/2014/08/29/9e632c712ec4c5f0f9c27133bd625181.jpg')
+                div(class='item_content')
+                    span(class='item_title') 깔리
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://pds22.egloos.com/pds/201101/25/21/e0077321_4d3ec16811c0a.jpg')
+                div(class='item_content')
+                    span(class='item_title') 아비꼬
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile25.uf.tistory.com/image/254A284C522DF273170012')
+                div(class='item_content')
+                    span(class='item_title') 파샤
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile9.uf.tistory.com/image/116FAC0C4C072DAD461BBE')
+                div(class='item_content')
+                    span(class='item_title') 나무
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile4.uf.tistory.com/image/2243CD4B50F8219E3725FA')
+                div(class='item_content')
+                    span(class='item_title') 갓덴스시
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile24.uf.tistory.com/image/1329374C4E3A28E30E0DF4')
+                div(class='item_content')
+                    span(class='item_title') VERITAS
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='https://s-media-cache-ak0.pinimg.com/236x/f0/d7/6f/f0d76f1dc77716348f429fab93eab716.jpg')
+                div(class='item_content')
+                    span(class='item_title') GAZA
+            figure(class='place_item')
+                div(class='hover_mask')
+                img(src='http://cfile2.uf.tistory.com/image/2414FC4752DFBF1B0857DF')
+                div(class='item_content')
+                    span(class='item_title') 어바웃샤브
