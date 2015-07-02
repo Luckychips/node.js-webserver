@@ -36,7 +36,7 @@
     cursor : pointer;
 }
 
-.place-item .hover_mask {
+.place-item .hover-mask {
     width : 100%;
     height : 100%;
     opacity : 0.5;
@@ -49,7 +49,7 @@
     transition : background-color 500ms ease-in-out;
 }
 
-.place-item .hover_mask:hover {
+.place-item .hover-mask:hover {
     background-color : #ffffff;
     opacity : 0.5;
 }
@@ -60,7 +60,7 @@
     border-top-right-radius : 5px;
 }
 
-.place-item .item_content {
+.place-item .item-content {
     height : 150px;
     text-align : center;
     border-bottom-left-radius : 3px;
@@ -69,7 +69,7 @@
     background-color : #efefef;
 }
 
-.place-item .item-content .item_title {
+.place-item .item-content .item-title {
     display : block;
     padding : 10px;
     /*color : #103a52;*/

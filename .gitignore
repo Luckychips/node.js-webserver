@@ -1,3 +1,10 @@
+#intelli-j setting file's
+/.idea
+node.js-webserver.iml
+
+#download content's
 /public/bower_components
 /node_modules
+
+#etc
 /logs

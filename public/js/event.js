@@ -11,7 +11,7 @@ $(window).ready(function () {
         var width = $(window).width();
 
         if (width > 1400) {
-            $("html, body").animate({ scrollTop: "600px" }, 1000);
+            $("html, body").animate({ scrollTop: "800px" }, 1000);
         }
     });
 });
