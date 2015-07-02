@@ -2,14 +2,9 @@
  * Created by sungjin.kim on 14-11-20.
  */
 $(window).ready(function () {
-    $('.place_item').find('.hover_mask').on('click', function (e) {
-//        alert($(this).siblings('img').attr('src'));
-//        var options = {};
-//        $('[data-remodal-id=modal]').remodal(options).open();
-
-        var options = {};
-        $('.remodal').find('img').attr('src', $(this).siblings('img').attr('src'));
-        $('[data-remodal-id=modal]').remodal(options).open();
+    $('#detail-item').on('show.bs.modal', function (event) {
+        var selected = $(event.relatedTarget);
+        $(this).find('.modal-thumb').attr('src', selected.find('img').attr('src'));
     });
 
     $('i.scroll').on('click', function (e) {

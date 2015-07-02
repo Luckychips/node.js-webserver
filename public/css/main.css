@@ -10,10 +10,6 @@ body {
     z-index : 10;
 }
 
-.remodal img {
-    width : 350px;
-}
-
 #header {
     background-color : #efefef;
     display : table;
@@ -36,7 +32,7 @@ body {
     cursor : pointer;
 }
 
-#main_view {
+#main-view {
     display : table-cell;
     text-align : center;
     vertical-align : middle;
@@ -47,7 +43,7 @@ body {
     height : 450px;
 }
 
-.main_title {
+.main-title {
     color : #333;
     font-size : 55px;
     font-weight : 100;
@@ -55,17 +51,17 @@ body {
     /*letter-spacing : 15px;*/
 }
 
-.main_title b {
+.main-title b {
     font-weight : 700;
     text-transform : uppercase;
     letter-spacing : 3px;
 }
 
-.main_title span {
+.main-title span {
     letter-spacing : 10px;
 }
 
-.sub_title {
+.sub-title {
     font-size : 18px;
     color : #666;
     text-align : center;

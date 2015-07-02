@@ -10,18 +10,18 @@
 .boundary {
 }
 
-.place_list {
+.place-list {
     overflow : hidden;
     margin : 30px auto;
 }
 
-.place_list > figure > img {
+.place-list > figure > img {
     border-top-left-radius : 3px;
     border-top-right-radius : 3px;
     width : 100%;
 }
 
-.place_item {
+.place-item {
     position : relative;
     display : inline-block;
     width : 215px;
@@ -32,11 +32,11 @@
     /*background-color : #d12252;*/
 }
 
-.place_item:hover {
+.place-item:hover {
     cursor : pointer;
 }
 
-.place_item .hover_mask {
+.place-item .hover_mask {
     width : 100%;
     height : 100%;
     opacity : 0.5;
@@ -49,18 +49,18 @@
     transition : background-color 500ms ease-in-out;
 }
 
-.place_item .hover_mask:hover {
+.place-item .hover_mask:hover {
     background-color : #ffffff;
     opacity : 0.5;
 }
 
-.place_item img {
+.place-item img {
     width : 100%;
     border-top-left-radius : 5px;
     border-top-right-radius : 5px;
 }
 
-.place_item .item_content {
+.place-item .item_content {
     height : 150px;
     text-align : center;
     border-bottom-left-radius : 3px;
@@ -69,7 +69,7 @@
     background-color : #efefef;
 }
 
-.place_item .item_content .item_title {
+.place-item .item-content .item_title {
     display : block;
     padding : 10px;
     /*color : #103a52;*/
@@ -80,5 +80,8 @@
     color : #333;
     text-align : left;
     letter-spacing : 1px;
+}
 
+#detail-item img {
+    width : 350px;
 }

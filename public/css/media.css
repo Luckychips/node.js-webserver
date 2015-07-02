@@ -3,7 +3,7 @@
         height : 600px;
     }
 
-    .main_title {
+    .main-title {
         font-size : 60px;
     }
 }
@@ -13,7 +13,7 @@
         height : 800px;
     }
 
-    .main_title {
+    .main-title {
         font-size : 65px;
     }
 }
@@ -21,7 +21,7 @@
 
 /* only list item setting */
 @media screen and (min-width:1129px) {
-    .place_list {
+    .place-list {
         width : 1130px;
         -moz-column-count : 5;
         -webkit-column-count : 5;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (min-width:899px) and (max-width:1128px) {
-    .place_list {
+    .place-list {
         width : 900px;
         -moz-column-count : 4;
         -webkit-column-count : 4;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width:680px) and (max-width:898px) {
-    .place_list {
+    .place-list {
         width : 675px;
         -moz-column-count : 3;
         -webkit-column-count : 3;
@@ -48,7 +48,7 @@
 }
 
 @media screen and (min-width:452px) and (max-width:679px) {
-    .place_list {
+    .place-list {
         width : 451px;
         -moz-column-count : 2;
         -webkit-column-count : 2;
@@ -57,7 +57,7 @@
 }
 
 @media screen and (max-width:451px) {
-    .place_list {
+    .place-list {
         width : 226px;
         -moz-column-count : 1;
         -webkit-column-count : 1;
